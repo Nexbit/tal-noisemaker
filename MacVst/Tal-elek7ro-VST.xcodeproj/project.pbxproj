@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C85667D1034B57D007B243D /* TalCore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8566791034B57D007B243D /* TalCore.cpp */; };
+		4C85668F1034B5D7007B243D /* juce_amalgamated.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C85668E1034B5D7007B243D /* juce_amalgamated.mm */; };
+		4C87D2C5107BBFD7001D2A3E /* juce_VST_Wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C87D2C3107BBFD7001D2A3E /* juce_VST_Wrapper.cpp */; };
+		4C87D2C6107BBFD7001D2A3E /* juce_VST_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C87D2C4107BBFD7001D2A3E /* juce_VST_Wrapper.mm */; };
+		4C8835561148E87600353637 /* TalComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8835541148E87600353637 /* TalComponent.cpp */; };
+		4C91174711CD05C3005161C1 /* Lfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C91173411CD05C3005161C1 /* Lfo.cpp */; };
+		84C0A3530DE2D1FD00606895 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3450DE2D1FD00606895 /* AGL.framework */; };
+		84C0A3540DE2D1FD00606895 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3460DE2D1FD00606895 /* ApplicationServices.framework */; };
+		84C0A3550DE2D1FD00606895 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3470DE2D1FD00606895 /* AudioUnit.framework */; };
+		84C0A3560DE2D1FD00606895 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3480DE2D1FD00606895 /* Carbon.framework */; };
+		84C0A3570DE2D1FD00606895 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3490DE2D1FD00606895 /* Cocoa.framework */; };
+		84C0A3580DE2D1FD00606895 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A34A0DE2D1FD00606895 /* CoreAudio.framework */; };
+		84C0A3590DE2D1FD00606895 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A34B0DE2D1FD00606895 /* CoreFoundation.framework */; };
+		84C0A35A0DE2D1FD00606895 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A34C0DE2D1FD00606895 /* CoreMIDI.framework */; };
+		84C0A35B0DE2D1FD00606895 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A34D0DE2D1FD00606895 /* CoreServices.framework */; };
+		84C0A35C0DE2D1FD00606895 /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A34E0DE2D1FD00606895 /* DiscRecording.framework */; };
+		84C0A35D0DE2D1FD00606895 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A34F0DE2D1FD00606895 /* IOKit.framework */; };
+		84C0A35E0DE2D1FD00606895 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3500DE2D1FD00606895 /* OpenGL.framework */; };
+		84C0A35F0DE2D1FD00606895 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3510DE2D1FD00606895 /* QuickTime.framework */; };
+		84C0A3600DE2D1FD00606895 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C0A3520DE2D1FD00606895 /* WebKit.framework */; };
+		84E1AF42089EBFD900E85E4F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84E1AF41089EBFD900E85E4F /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C7EAF821034976C008E8EE4 /* juce.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = juce.xcconfig; sourceTree = "<group>"; };
+		4C8566711034B57D007B243D /* FilmStripKnob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilmStripKnob.h; path = ../src/FilmStripKnob.h; sourceTree = SOURCE_ROOT; };
+		4C8566721034B57D007B243D /* ImageSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageSlider.h; path = ../src/ImageSlider.h; sourceTree = SOURCE_ROOT; };
+		4C8566731034B57D007B243D /* includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = includes.h; path = ../src/includes.h; sourceTree = SOURCE_ROOT; };
+		4C8566741034B57D007B243D /* JucePluginCharacteristics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JucePluginCharacteristics.h; path = ../src/JucePluginCharacteristics.h; sourceTree = SOURCE_ROOT; };
+		4C8566751034B57D007B243D /* Program.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Program.h; path = ../src/Program.h; sourceTree = SOURCE_ROOT; };
+		4C8566761034B57D007B243D /* ProgramChunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgramChunk.h; path = ../src/ProgramChunk.h; sourceTree = SOURCE_ROOT; };
+		4C8566791034B57D007B243D /* TalCore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TalCore.cpp; path = ../src/TalCore.cpp; sourceTree = SOURCE_ROOT; };
+		4C85667A1034B57D007B243D /* TalCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalCore.h; path = ../src/TalCore.h; sourceTree = SOURCE_ROOT; };
+		4C85667B1034B57D007B243D /* TalPreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalPreset.h; path = ../src/TalPreset.h; sourceTree = SOURCE_ROOT; };
+		4C8566821034B58A007B243D /* Params.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Params.h; path = ../src/Engine/Params.h; sourceTree = SOURCE_ROOT; };
+		4C85668E1034B5D7007B243D /* juce_amalgamated.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = juce_amalgamated.mm; path = ../juce/juce_amalgamated.mm; sourceTree = SOURCE_ROOT; };
+		4C87D2C3107BBFD7001D2A3E /* juce_VST_Wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = juce_VST_Wrapper.cpp; path = ../wrapper/formats/VST/juce_VST_Wrapper.cpp; sourceTree = SOURCE_ROOT; };
+		4C87D2C4107BBFD7001D2A3E /* juce_VST_Wrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = juce_VST_Wrapper.mm; path = ../wrapper/formats/VST/juce_VST_Wrapper.mm; sourceTree = SOURCE_ROOT; };
+		4C8835531148E87600353637 /* ImageToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageToggleButton.h; path = ../src/ImageToggleButton.h; sourceTree = SOURCE_ROOT; };
+		4C8835541148E87600353637 /* TalComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TalComponent.cpp; path = ../src/TalComponent.cpp; sourceTree = SOURCE_ROOT; };
+		4C8835551148E87600353637 /* TalComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TalComponent.h; path = ../src/TalComponent.h; sourceTree = SOURCE_ROOT; };
+		4C8835A21148F74000353637 /* AudioUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioUtils.h; path = ../src/Engine/AudioUtils.h; sourceTree = SOURCE_ROOT; };
+		4C8835A51148F74000353637 /* ParamChangeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParamChangeUtil.h; path = ../src/Engine/ParamChangeUtil.h; sourceTree = SOURCE_ROOT; };
+		4C91172A11CD05C3005161C1 /* Adsr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Adsr.h; path = ../src/Engine/Adsr.h; sourceTree = SOURCE_ROOT; };
+		4C91172B11CD05C3005161C1 /* AdsrHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdsrHandler.h; path = ../src/Engine/AdsrHandler.h; sourceTree = SOURCE_ROOT; };
+		4C91172C11CD05C3005161C1 /* AnalogNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnalogNoise.h; path = ../src/Engine/AnalogNoise.h; sourceTree = SOURCE_ROOT; };
+		4C91172D11CD05C3005161C1 /* BlepData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlepData.h; path = ../src/Engine/BlepData.h; sourceTree = SOURCE_ROOT; };
+		4C91172E11CD05C3005161C1 /* Decimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Decimator.h; path = ../src/Engine/Decimator.h; sourceTree = SOURCE_ROOT; };
+		4C91172F11CD05C3005161C1 /* FilterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterHandler.h; path = ../src/Engine/FilterHandler.h; sourceTree = SOURCE_ROOT; };
+		4C91173011CD05C3005161C1 /* FilterLp18dB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterLp18dB.h; path = ../src/Engine/FilterLp18dB.h; sourceTree = SOURCE_ROOT; };
+		4C91173111CD05C3005161C1 /* FilterLp24db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterLp24db.h; path = ../src/Engine/FilterLp24db.h; sourceTree = SOURCE_ROOT; };
+		4C91173211CD05C3005161C1 /* HighPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighPass.h; path = ../src/Engine/HighPass.h; sourceTree = SOURCE_ROOT; };
+		4C91173311CD05C3005161C1 /* Interpolatorlinear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interpolatorlinear.h; path = ../src/Engine/Interpolatorlinear.h; sourceTree = SOURCE_ROOT; };
+		4C91173411CD05C3005161C1 /* Lfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lfo.cpp; path = ../src/Engine/Lfo.cpp; sourceTree = SOURCE_ROOT; };
+		4C91173511CD05C3005161C1 /* Lfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lfo.h; path = ../src/Engine/Lfo.h; sourceTree = SOURCE_ROOT; };
+		4C91173611CD05C3005161C1 /* LfoHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LfoHandler.h; path = ../src/Engine/LfoHandler.h; sourceTree = SOURCE_ROOT; };
+		4C91173711CD05C3005161C1 /* LfoHandler1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LfoHandler1.h; path = ../src/Engine/LfoHandler1.h; sourceTree = SOURCE_ROOT; };
+		4C91173811CD05C3005161C1 /* LfoHandler2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LfoHandler2.h; path = ../src/Engine/LfoHandler2.h; sourceTree = SOURCE_ROOT; };
+		4C91173911CD05C3005161C1 /* Osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Osc.h; path = ../src/Engine/Osc.h; sourceTree = SOURCE_ROOT; };
+		4C91173A11CD05C3005161C1 /* OscNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscNoise.h; path = ../src/Engine/OscNoise.h; sourceTree = SOURCE_ROOT; };
+		4C91173B11CD05C3005161C1 /* OscPulse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscPulse.h; path = ../src/Engine/OscPulse.h; sourceTree = SOURCE_ROOT; };
+		4C91173C11CD05C3005161C1 /* OscSaw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscSaw.h; path = ../src/Engine/OscSaw.h; sourceTree = SOURCE_ROOT; };
+		4C91173D11CD05C3005161C1 /* OscSin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscSin.h; path = ../src/Engine/OscSin.h; sourceTree = SOURCE_ROOT; };
+		4C91173E11CD05C3005161C1 /* OscTriangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OscTriangle.h; path = ../src/Engine/OscTriangle.h; sourceTree = SOURCE_ROOT; };
+		4C91173F11CD05C3005161C1 /* PitchwheelHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PitchwheelHandler.h; path = ../src/Engine/PitchwheelHandler.h; sourceTree = SOURCE_ROOT; };
+		4C91174011CD05C3005161C1 /* Portamento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Portamento.h; path = ../src/Engine/Portamento.h; sourceTree = SOURCE_ROOT; };
+		4C91174111CD05C3005161C1 /* StereoPan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StereoPan.h; path = ../src/Engine/StereoPan.h; sourceTree = SOURCE_ROOT; };
+		4C91174211CD05C3005161C1 /* SynthEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthEngine.h; path = ../src/Engine/SynthEngine.h; sourceTree = SOURCE_ROOT; };
+		4C91174311CD05C3005161C1 /* SynthVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthVoice.h; path = ../src/Engine/SynthVoice.h; sourceTree = SOURCE_ROOT; };
+		4C91174411CD05C3005161C1 /* Vco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vco.h; path = ../src/Engine/Vco.h; sourceTree = SOURCE_ROOT; };
+		4C91174511CD05C3005161C1 /* VelocityHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VelocityHandler.h; path = ../src/Engine/VelocityHandler.h; sourceTree = SOURCE_ROOT; };
+		4C91174611CD05C3005161C1 /* VoiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoiceManager.h; path = ../src/Engine/VoiceManager.h; sourceTree = SOURCE_ROOT; };
+		84C0A3450DE2D1FD00606895 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		84C0A3460DE2D1FD00606895 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		84C0A3470DE2D1FD00606895 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
+		84C0A3480DE2D1FD00606895 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		84C0A3490DE2D1FD00606895 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		84C0A34A0DE2D1FD00606895 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		84C0A34B0DE2D1FD00606895 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		84C0A34C0DE2D1FD00606895 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		84C0A34D0DE2D1FD00606895 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		84C0A34E0DE2D1FD00606895 /* DiscRecording.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
+		84C0A34F0DE2D1FD00606895 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		84C0A3500DE2D1FD00606895 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		84C0A3510DE2D1FD00606895 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		84C0A3520DE2D1FD00606895 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		84E1AE47089EBA6A00E85E4F /* TAL-NoiseMaker.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAL-NoiseMaker.vst"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E1AF41089EBFD900E85E4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E1AE45089EBA6A00E85E4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C0A3530DE2D1FD00606895 /* AGL.framework in Frameworks */,
+				84C0A3540DE2D1FD00606895 /* ApplicationServices.framework in Frameworks */,
+				84C0A3550DE2D1FD00606895 /* AudioUnit.framework in Frameworks */,
+				84C0A3560DE2D1FD00606895 /* Carbon.framework in Frameworks */,
+				84C0A3570DE2D1FD00606895 /* Cocoa.framework in Frameworks */,
+				84C0A3580DE2D1FD00606895 /* CoreAudio.framework in Frameworks */,
+				84C0A3590DE2D1FD00606895 /* CoreFoundation.framework in Frameworks */,
+				84C0A35A0DE2D1FD00606895 /* CoreMIDI.framework in Frameworks */,
+				84C0A35B0DE2D1FD00606895 /* CoreServices.framework in Frameworks */,
+				84C0A35C0DE2D1FD00606895 /* DiscRecording.framework in Frameworks */,
+				84C0A35D0DE2D1FD00606895 /* IOKit.framework in Frameworks */,
+				84C0A35E0DE2D1FD00606895 /* OpenGL.framework in Frameworks */,
+				84C0A35F0DE2D1FD00606895 /* QuickTime.framework in Frameworks */,
+				84C0A3600DE2D1FD00606895 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* JuceVST */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = JuceVST;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				84C0A3450DE2D1FD00606895 /* AGL.framework */,
+				84C0A3460DE2D1FD00606895 /* ApplicationServices.framework */,
+				84C0A3470DE2D1FD00606895 /* AudioUnit.framework */,
+				84C0A3480DE2D1FD00606895 /* Carbon.framework */,
+				84C0A3490DE2D1FD00606895 /* Cocoa.framework */,
+				84C0A34A0DE2D1FD00606895 /* CoreAudio.framework */,
+				84C0A34B0DE2D1FD00606895 /* CoreFoundation.framework */,
+				84C0A34C0DE2D1FD00606895 /* CoreMIDI.framework */,
+				84C0A34D0DE2D1FD00606895 /* CoreServices.framework */,
+				84C0A34E0DE2D1FD00606895 /* DiscRecording.framework */,
+				84C0A34F0DE2D1FD00606895 /* IOKit.framework */,
+				84C0A3500DE2D1FD00606895 /* OpenGL.framework */,
+				84C0A3510DE2D1FD00606895 /* QuickTime.framework */,
+				84C0A3520DE2D1FD00606895 /* WebKit.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84E1AF41089EBFD900E85E4F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				84E1AE4C089EBA9300E85E4F /* source */,
+				84E1AE53089EBACA00E85E4F /* wrapper code */,
+				4C7EAF821034976C008E8EE4 /* juce.xcconfig */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E1AE47089EBA6A00E85E4F /* TAL-NoiseMaker.vst */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C7EAF93103497F5008E8EE4 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				4C91172A11CD05C3005161C1 /* Adsr.h */,
+				4C91172B11CD05C3005161C1 /* AdsrHandler.h */,
+				4C91172C11CD05C3005161C1 /* AnalogNoise.h */,
+				4C91172D11CD05C3005161C1 /* BlepData.h */,
+				4C91172E11CD05C3005161C1 /* Decimator.h */,
+				4C91172F11CD05C3005161C1 /* FilterHandler.h */,
+				4C91173011CD05C3005161C1 /* FilterLp18dB.h */,
+				4C91173111CD05C3005161C1 /* FilterLp24db.h */,
+				4C91173211CD05C3005161C1 /* HighPass.h */,
+				4C91173311CD05C3005161C1 /* Interpolatorlinear.h */,
+				4C91173411CD05C3005161C1 /* Lfo.cpp */,
+				4C91173511CD05C3005161C1 /* Lfo.h */,
+				4C91173611CD05C3005161C1 /* LfoHandler.h */,
+				4C91173711CD05C3005161C1 /* LfoHandler1.h */,
+				4C91173811CD05C3005161C1 /* LfoHandler2.h */,
+				4C91173911CD05C3005161C1 /* Osc.h */,
+				4C91173A11CD05C3005161C1 /* OscNoise.h */,
+				4C91173B11CD05C3005161C1 /* OscPulse.h */,
+				4C91173C11CD05C3005161C1 /* OscSaw.h */,
+				4C91173D11CD05C3005161C1 /* OscSin.h */,
+				4C91173E11CD05C3005161C1 /* OscTriangle.h */,
+				4C91173F11CD05C3005161C1 /* PitchwheelHandler.h */,
+				4C91174011CD05C3005161C1 /* Portamento.h */,
+				4C91174111CD05C3005161C1 /* StereoPan.h */,
+				4C91174211CD05C3005161C1 /* SynthEngine.h */,
+				4C91174311CD05C3005161C1 /* SynthVoice.h */,
+				4C91174411CD05C3005161C1 /* Vco.h */,
+				4C91174511CD05C3005161C1 /* VelocityHandler.h */,
+				4C91174611CD05C3005161C1 /* VoiceManager.h */,
+				4C8835A21148F74000353637 /* AudioUtils.h */,
+				4C8835A51148F74000353637 /* ParamChangeUtil.h */,
+				4C8566821034B58A007B243D /* Params.h */,
+			);
+			name = engine;
+			sourceTree = "<group>";
+		};
+		84E1AE4C089EBA9300E85E4F /* source */ = {
+			isa = PBXGroup;
+			children = (
+				4C8835531148E87600353637 /* ImageToggleButton.h */,
+				4C8835541148E87600353637 /* TalComponent.cpp */,
+				4C8835551148E87600353637 /* TalComponent.h */,
+				4C85668E1034B5D7007B243D /* juce_amalgamated.mm */,
+				4C8566711034B57D007B243D /* FilmStripKnob.h */,
+				4C8566721034B57D007B243D /* ImageSlider.h */,
+				4C8566731034B57D007B243D /* includes.h */,
+				4C8566741034B57D007B243D /* JucePluginCharacteristics.h */,
+				4C8566751034B57D007B243D /* Program.h */,
+				4C8566761034B57D007B243D /* ProgramChunk.h */,
+				4C8566791034B57D007B243D /* TalCore.cpp */,
+				4C85667A1034B57D007B243D /* TalCore.h */,
+				4C85667B1034B57D007B243D /* TalPreset.h */,
+				4C7EAF93103497F5008E8EE4 /* engine */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		84E1AE53089EBACA00E85E4F /* wrapper code */ = {
+			isa = PBXGroup;
+			children = (
+				4C87D2C3107BBFD7001D2A3E /* juce_VST_Wrapper.cpp */,
+				4C87D2C4107BBFD7001D2A3E /* juce_VST_Wrapper.mm */,
+			);
+			name = "wrapper code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E1AE46089EBA6A00E85E4F /* TAL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E1AE48089EBA8900E85E4F /* Build configuration list for PBXNativeTarget "TAL" */;
+			buildPhases = (
+				84E1AE43089EBA6A00E85E4F /* Resources */,
+				84E1AE44089EBA6A00E85E4F /* Sources */,
+				84E1AE45089EBA6A00E85E4F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAL;
+			productName = JuceVST;
+			productReference = 84E1AE47089EBA6A00E85E4F /* TAL-NoiseMaker.vst */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84E1ADD2089EB1BA00E85E4F /* Build configuration list for PBXProject "Tal-elek7ro-VST" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* JuceVST */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E1AE46089EBA6A00E85E4F /* TAL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E1AE43089EBA6A00E85E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E1AF42089EBFD900E85E4F /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E1AE44089EBA6A00E85E4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C85667D1034B57D007B243D /* TalCore.cpp in Sources */,
+				4C85668F1034B5D7007B243D /* juce_amalgamated.mm in Sources */,
+				4C87D2C5107BBFD7001D2A3E /* juce_VST_Wrapper.cpp in Sources */,
+				4C87D2C6107BBFD7001D2A3E /* juce_VST_Wrapper.mm in Sources */,
+				4C8835561148E87600353637 /* TalComponent.cpp in Sources */,
+				4C91174711CD05C3005161C1 /* Lfo.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84E1ADD3089EB1BA00E85E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				HEADER_SEARCH_PATHS = (
+					../../../../..,
+					"~/stuff/vstsdk2.4/",
+				);
+			};
+			name = Debug;
+		};
+		84E1ADD4089EB1BA00E85E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				HEADER_SEARCH_PATHS = (
+					../../../../..,
+					"~/stuff/vstsdk2.4/",
+				);
+			};
+			name = Release;
+		};
+		84E1AE49089EBA8900E85E4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "JUCE_ObjCExtraSuffix=TalReverbiiVst";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../vstsdk2.4/;
+				INFOPLIST_FILE = info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../juce/bin\"";
+				PRODUCT_NAME = "TAL-Reverb-2";
+				SYMROOT = "$(HOME)/Library/Audio/Plug-Ins/VST";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Debug;
+		};
+		84E1AE4A089EBA8900E85E4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "JUCE_ObjCExtraSuffix=tal_noisemaker08";
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = ../vstsdk2.4/;
+				INFOPLIST_FILE = info.plist;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../juce/bin\"";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "TAL-NoiseMaker";
+				SDKROOT = "";
+				SYMROOT = "$(HOME)/Library/Audio/Plug-Ins/VST";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E1ADD2089EB1BA00E85E4F /* Build configuration list for PBXProject "Tal-elek7ro-VST" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1ADD3089EB1BA00E85E4F /* Debug */,
+				84E1ADD4089EB1BA00E85E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84E1AE48089EBA8900E85E4F /* Build configuration list for PBXNativeTarget "TAL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1AE49089EBA8900E85E4F /* Debug */,
+				84E1AE4A089EBA8900E85E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

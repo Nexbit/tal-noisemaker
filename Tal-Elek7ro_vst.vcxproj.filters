@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6bedc1e4-72c6-49ac-a445-a2aee4a7c2b9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{81de7ffe-3a1b-47c1-b564-b1c1f4aaa048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Component">
+      <UniqueIdentifier>{37032cb5-e111-4920-81cd-1b4e317b8a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Engine">
+      <UniqueIdentifier>{1e98977c-b9a9-4725-b95f-dd1d7cac3718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wrapper_code">
+      <UniqueIdentifier>{c44501d7-9689-4200-b871-f7526b1e6e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resource">
+      <UniqueIdentifier>{21bcc5c5-b982-4729-83d3-f161524c5763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Engine\Lfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TalComponent.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TalCore.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="juce\juce_amalgamated.cpp">
+      <Filter>Source Files\wrapper_code</Filter>
+    </ClCompile>
+    <ClCompile Include="wrapper\formats\VST\juce_VST_Wrapper.cpp">
+      <Filter>Source Files\wrapper_code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\includes.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\JucePluginCharacteristics.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProgramChunk.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TalComponent.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TalCore.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TalPreset.h">
+      <Filter>Source Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FilmStripKnob.h">
+      <Filter>Source Files\src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageSlider.h">
+      <Filter>Source Files\src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageToggleButton.h">
+      <Filter>Source Files\src\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\AudioUtils.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\BlepData.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Decimator.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\FilterHandler.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\FilterLp24db.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Interpolatorlinear.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Osc.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\OscNoise.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\OscPulse.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\OscSaw.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\OscSin.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\OscTriangle.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\ParamChangeUtil.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Params.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\SynthEngine.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\SynthVoice.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Vco.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\VoiceManager.h">
+      <Filter>Source Files\src\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="wrapper\formats\juce_PluginHeaders.h">
+      <Filter>Source Files\wrapper_code</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Engine\Adsr.h" />
+    <ClInclude Include="src\Engine\AdsrHandler.h" />
+    <ClInclude Include="src\Effects\Reverb\AllPassFilter.h" />
+    <ClInclude Include="src\Effects\Chorus\Chorus.h" />
+    <ClInclude Include="src\Effects\Chorus\ChorusEngine.h" />
+    <ClInclude Include="src\Effects\Reverb\CombFilter.h" />
+    <ClInclude Include="src\Effects\Chorus\DCBlock.h" />
+    <ClInclude Include="src\Effects\Reverb\Filter.h" />
+    <ClInclude Include="src\Engine\FilterBp24db.h" />
+    <ClInclude Include="src\Engine\FilterHp24db.h" />
+    <ClInclude Include="src\Engine\FilterLp06db.h" />
+    <ClInclude Include="src\Engine\FilterLp12db.h" />
+    <ClInclude Include="src\Engine\FilterLp18db.h" />
+    <ClInclude Include="src\Engine\FilterN24db.h" />
+    <ClInclude Include="src\Engine\HighPass.h" />
+    <ClInclude Include="src\Engine\Lfo.h" />
+    <ClInclude Include="src\Engine\LfoHandler.h" />
+    <ClInclude Include="src\Engine\LfoHandler1.h" />
+    <ClInclude Include="src\Engine\LfoHandler2.h" />
+    <ClInclude Include="src\Effects\Reverb\NoiseGenerator.h" />
+    <ClInclude Include="src\Effects\Chorus\OnePoleLP.h" />
+    <ClInclude Include="src\Engine\PitchwheelHandler.h" />
+    <ClInclude Include="src\Engine\Portamento.h" />
+    <ClInclude Include="src\Effects\Reverb\Reverb.h" />
+    <ClInclude Include="src\Effects\Reverb\ReverbEngine.h" />
+    <ClInclude Include="src\Engine\StereoPan.h" />
+    <ClInclude Include="src\Engine\VelocityHandler.h" />
+  </ItemGroup>
+</Project>

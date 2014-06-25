@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tal-NoiseMaker", "Tal-Elek7ro_vst.vcxproj", "{6F0F1E35-EAF8-431A-83D9-F0340921E560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		DLL Debug|Win32 = DLL Debug|Win32
+		DLL Debug|x64 = DLL Debug|x64
+		DLL Release|Win32 = DLL Release|Win32
+		DLL Release|x64 = DLL Release|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Debug|Win32.Build.0 = Debug|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Debug|x64.ActiveCfg = Debug|x64
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Debug|x64.Build.0 = Debug|x64
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Debug|Win32.ActiveCfg = Debug|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Debug|Win32.Build.0 = Debug|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Debug|x64.ActiveCfg = Debug|x64
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Debug|x64.Build.0 = Debug|x64
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Release|Win32.ActiveCfg = Release|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Release|Win32.Build.0 = Release|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Release|x64.ActiveCfg = Release|x64
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.DLL Release|x64.Build.0 = Release|x64
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Release|Win32.ActiveCfg = Release|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Release|Win32.Build.0 = Release|Win32
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Release|x64.ActiveCfg = Release|x64
+		{6F0F1E35-EAF8-431A-83D9-F0340921E560}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

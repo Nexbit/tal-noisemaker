@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	3E8BF102079CA60300021B09 /* TAL */ = {
+		activeExec = 0;
+	};
+	4C50C30312035CD900E735DD /* ComponentBase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 2691}}";
+			sepNavSelRange = "{2518, 0}";
+			sepNavVisRange = "{2196, 639}";
+		};
+	};
+	4C50C43E120369C400E735DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CD60D611035A462007E7A63 /* TalCore.cpp */;
+		name = "TalCore.cpp: 529";
+		rLen = 0;
+		rLoc = 16210;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C50C440120369C400E735DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CD60D5C1035A462007E7A63 /* ImageSlider.h */;
+		name = "ImageSlider.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C50C442120369C400E735DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CD60D5B1035A462007E7A63 /* FilmStripKnob.h */;
+		name = "FilmStripKnob.h: 27";
+		rLen = 0;
+		rLoc = 1001;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C50C443120369C400E735DD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4C9117E411CD0CC7005161C1 /* Decimator.h */;
+	};
+	4C50C49212037B3100E735DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C7BD1D4114826B7000FECE2 /* ImageToggleButton.h */;
+		name = "ImageToggleButton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C50C49412037B3100E735DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84C09D290DE2C52600606895 /* includes.h */;
+		name = "includes.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C50C49512037B3100E735DD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84C09D3E0DE2C57300606895 /* juce_amalgamated.mm */;
+		name = "juce_amalgamated.mm: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C60E9CF1148439F00ECB60E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C7BD2571148323F000FECE2 /* juce_amalgamated.cpp */;
+		name = "juce_amalgamated.cpp: 243955";
+		rLen = 82;
+		rLoc = 6692095;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 6691785;
+	};
+	4C60E9D41148439F00ECB60E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C7BD1D5114826B7000FECE2 /* TalComponent.cpp */;
+		name = "TalComponent.cpp: 10";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 279;
+	};
+	4C7BD1D4114826B7000FECE2 /* ImageToggleButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {12, 1079}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	4C7BD1D5114826B7000FECE2 /* TalComponent.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1230, 38080}}";
+			sepNavSelRange = "{8054, 0}";
+			sepNavVisRange = "{7289, 1880}";
+			sepNavWindowFrame = "{{38, 149}, {761, 703}}";
+		};
+	};
+	4C7BD2571148323F000FECE2 /* juce_amalgamated.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = juce_amalgamated.cpp;
+		path = "/Users/patrickkunz/Develop/workspace-svn-mac/tal-reverb-2-juce/MacAudioUnit/../juce/juce_amalgamated.cpp";
+		sourceTree = "<absolute>";
+	};
+	4C7EF73E12040BD20002E821 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 84F05215090674BB00AEC8DB /* Info-JuceAU.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/patrickkunz/Develop/workspace-svn-mac/tal-elek7ro-juce/MacAudioUnit64/Info-JuceAU.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	4C7EF73F12040BD20002E821 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84F05217090674BB00AEC8DB /* JuceAU.exp */;
+		name = "JuceAU.exp: 9";
+		rLen = 0;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C7EF74012040BD20002E821 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C87D29C107BBE10001D2A3E /* juce_AU_Resources.r */;
+		name = "juce_AU_Resources.r: 35";
+		rLen = 0;
+		rLoc = 1685;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C87D29C107BBE10001D2A3E /* juce_AU_Resources.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {614, 962}}";
+			sepNavSelRange = "{1685, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{107, 210}, {761, 703}}";
+		};
+	};
+	4C87D29D107BBE10001D2A3E /* juce_AU_Wrapper.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 18395}}";
+			sepNavSelRange = "{1705, 18}";
+			sepNavVisRange = "{905, 1492}";
+			sepNavWindowFrame = "{{84, 231}, {761, 703}}";
+		};
+	};
+	4C88325F11DDDC2E006121FF /* SynthEngine.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SynthEngine.h;
+		path = "/Users/patrickkunz/Develop/workspace-svn-mac/tal-elek7ro-juce/MacAudioUnit/../src/./engine/SynthEngine.h";
+		sourceTree = "<absolute>";
+	};
+	4C88326A11DDE089006121FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C88325F11DDDC2E006121FF /* SynthEngine.h */;
+		name = "SynthEngine.h: 39";
+		rLen = 0;
+		rLoc = 1246;
+		rType = 0;
+		vrLen = 467;
+		vrLoc = 990;
+	};
+	4C9117E011CD0CC7005161C1 /* Adsr.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 2600}}";
+			sepNavSelRange = "{4365, 6}";
+			sepNavVisRange = "{3635, 738}";
+			sepNavWindowFrame = "{{539, 206}, {761, 703}}";
+		};
+	};
+	4C9117E911CD0CC7005161C1 /* Interpolatorlinear.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {215, 1586}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{153, 168}, {761, 703}}";
+		};
+	};
+	4C91183111CD12E9005161C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 845FAE5E0A5C0A6A008C94D8 /* juce.xcconfig */;
+		name = "juce.xcconfig: 8";
+		rLen = 0;
+		rLoc = 157;
+		rType = 0;
+		vrLen = 405;
+		vrLoc = 0;
+	};
+	4C9EA56E12045073003AFF69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C9EA56F12045073003AFF69 /* juce_amalgamated.h */;
+		name = "juce_amalgamated.h: 5967";
+		rLen = 110;
+		rLoc = 204956;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4C9EA56F12045073003AFF69 /* juce_amalgamated.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = juce_amalgamated.h;
+		path = "/Users/patrickkunz/Develop/workspace-svn-mac/tal-elek7ro-juce/MacAudioUnit64/../juce/juce_amalgamated.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {26, 799955}}";
+			sepNavSelRange = "{204956, 110}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	4C9EA5D91204553B003AFF69 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C9EA56F12045073003AFF69 /* juce_amalgamated.h */;
+		name = "juce_amalgamated.h: 5967";
+		rLen = 110;
+		rLoc = 204956;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4CC2712D12040D31007C0BB9 /* juce_amalgamated.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = juce_amalgamated.cpp;
+		path = "/Users/patrickkunz/Develop/workspace-svn-mac/tal-elek7ro-juce/MacAudioUnit64/../juce/juce_amalgamated.cpp";
+		sourceTree = "<absolute>";
+	};
+	4CC2713812040D90007C0BB9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84EB404D090A5116008FAC1B /* JucePluginCharacteristics.h */;
+		name = "JucePluginCharacteristics.h: 277";
+		rLen = 0;
+		rLoc = 11294;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4CC2716712040FB0007C0BB9 /* juce_amalgamated.cpp:2240 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4CC2712D12040D31007C0BB9 /* juce_amalgamated.cpp */;
+		functionName = "testInteger()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 2240;
+		modificationTime = 302256048.273612;
+		originalNumberOfMultipleMatches = 0;
+		state = 1;
+	};
+	4CC27174120411B4007C0BB9 /* juce_amalgamated.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = juce_amalgamated.h;
+		path = "/Users/patrickkunz/Develop/workspace-svn-mac/tal-elek7ro-juce/MacAudioUnit64/../juce/juce_amalgamated.h";
+		sourceTree = "<absolute>";
+	};
+	4CC2719512041C61007C0BB9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CC27174120411B4007C0BB9 /* juce_amalgamated.h */;
+		name = "juce_amalgamated.h: 5967";
+		rLen = 110;
+		rLoc = 204956;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	4CD60D581035A17A007E7A63 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4CD60D591035A17A007E7A63 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4CD60D5B1035A462007E7A63 /* FilmStripKnob.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {586, 754}}";
+			sepNavSelRange = "{1001, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{61, 128}, {761, 703}}";
+		};
+	};
+	4CD60D5C1035A462007E7A63 /* ImageSlider.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {26, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	4CD60D611035A462007E7A63 /* TalCore.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {502, 11947}}";
+			sepNavSelRange = "{16210, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	4CD60D9E1035AA07007E7A63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CD60D9F1035AA07007E7A63 /* juce_IncludeCharacteristics.h */;
+		name = "juce_IncludeCharacteristics.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 914;
+		vrLoc = 0;
+	};
+	4CD60D9F1035AA07007E7A63 /* juce_IncludeCharacteristics.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = juce_IncludeCharacteristics.h;
+		path = "/Users/patrickkunz/Develop/workspace-svn-mac/Tal-Reverb-Effect-juce/wrapper/juce_IncludeCharacteristics.h";
+		sourceTree = "<absolute>";
+	};
+	845FAE5E0A5C0A6A008C94D8 /* juce.xcconfig */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {634, 270}}";
+			sepNavSelRange = "{157, 0}";
+			sepNavVisRange = "{0, 405}";
+		};
+	};
+	84C09D290DE2C52600606895 /* includes.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 416}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
+	};
+	84C09D3E0DE2C57300606895 /* juce_amalgamated.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1078, 152}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 275}";
+		};
+	};
+	84EB404D090A5116008FAC1B /* JucePluginCharacteristics.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 4134}}";
+			sepNavSelRange = "{11294, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{15, 170}, {761, 703}}";
+		};
+	};
+	84F05215090674BB00AEC8DB /* Info-JuceAU.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 170}, {761, 703}}";
+		};
+	};
+	84F05217090674BB00AEC8DB /* JuceAU.exp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 172}}";
+			sepNavSelRange = "{267, 0}";
+			sepNavVisRange = "{0, 0}";
+			sepNavWindowFrame = "{{38, 149}, {761, 703}}";
+		};
+	};
+	F5AA99BA0281A61201C34293 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 3E8BF102079CA60300021B09 /* TAL */;
+		addToTargets = (
+			3E8BF102079CA60300021B09 /* TAL */,
+		);
+		breakpoints = (
+			4CC2716712040FB0007C0BB9 /* juce_amalgamated.cpp:2240 */,
+		);
+		codeSenseManager = 4CD60D591035A17A007E7A63 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					57.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302273825;
+			PBXWorkspaceStateSaveDate = 302273825;
+		};
+		perUserProjectItems = {
+			4C50C43E120369C400E735DD = 4C50C43E120369C400E735DD /* PBXTextBookmark */;
+			4C50C440120369C400E735DD = 4C50C440120369C400E735DD /* PBXTextBookmark */;
+			4C50C442120369C400E735DD = 4C50C442120369C400E735DD /* PBXTextBookmark */;
+			4C50C443120369C400E735DD = 4C50C443120369C400E735DD /* PBXBookmark */;
+			4C50C49212037B3100E735DD = 4C50C49212037B3100E735DD /* PBXTextBookmark */;
+			4C50C49412037B3100E735DD = 4C50C49412037B3100E735DD /* PBXTextBookmark */;
+			4C50C49512037B3100E735DD = 4C50C49512037B3100E735DD /* PBXTextBookmark */;
+			4C60E9CF1148439F00ECB60E = 4C60E9CF1148439F00ECB60E /* PBXTextBookmark */;
+			4C60E9D41148439F00ECB60E = 4C60E9D41148439F00ECB60E /* PBXTextBookmark */;
+			4C7EF73E12040BD20002E821 = 4C7EF73E12040BD20002E821 /* PlistBookmark */;
+			4C7EF73F12040BD20002E821 = 4C7EF73F12040BD20002E821 /* PBXTextBookmark */;
+			4C7EF74012040BD20002E821 = 4C7EF74012040BD20002E821 /* PBXTextBookmark */;
+			4C88326A11DDE089006121FF = 4C88326A11DDE089006121FF /* PBXTextBookmark */;
+			4C91183111CD12E9005161C1 = 4C91183111CD12E9005161C1 /* PBXTextBookmark */;
+			4C9EA56E12045073003AFF69 = 4C9EA56E12045073003AFF69 /* PBXTextBookmark */;
+			4C9EA5D91204553B003AFF69 /* PBXTextBookmark */ = 4C9EA5D91204553B003AFF69 /* PBXTextBookmark */;
+			4CC2713812040D90007C0BB9 = 4CC2713812040D90007C0BB9 /* PBXTextBookmark */;
+			4CC2719512041C61007C0BB9 = 4CC2719512041C61007C0BB9 /* PBXTextBookmark */;
+			4CD60D9E1035AA07007E7A63 = 4CD60D9E1035AA07007E7A63 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4CD60D581035A17A007E7A63 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

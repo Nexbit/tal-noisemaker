@@ -1,0 +1,3 @@
+# Prevent EOL conversions (but treat as text)
+*.exp      -text
+*.xcconfig -text
